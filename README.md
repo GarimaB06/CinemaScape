@@ -1,8 +1,6 @@
-#CinemaScape
+# CinemaScape
 
 A simple React app providing users with insights into currently showing movies, featuring a user-friendly search, sorting, genre filtering, and favoriting within an elegant, responsive interface.
-
-https://github.com/GarimaB06/AcmeTheaters/assets/68969765/8e849047-b154-404c-ae2e-0f5e16d7db31
 
 ## Key Features and Components
 

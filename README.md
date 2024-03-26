@@ -2,6 +2,8 @@
 
 A simple React app providing users with insights into currently showing movies, featuring a user-friendly search, sorting, genre filtering, and favoriting within an elegant, responsive interface.
 
+https://github.com/GarimaB06/CinemaScape/assets/68969765/56e2c050-9350-4f54-a839-3e3c21895c86
+
 ## Key Features and Components
 
 ### Search Bar
@@ -49,7 +51,7 @@ Consists of flippable movie cards.
 2. **Run the Application:**
 
    ```
-   npm start
+   npm run dev
    ```
 
 3. **Access the Application:**

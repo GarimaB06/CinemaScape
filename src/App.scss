@@ -130,12 +130,16 @@ $black: #000000;
 }
 
 .title-rating-genre {
-	p {
+	.movie-title {
 		display: flex;
 		flex-direction: column;
 		justify-content: space-evenly;
 		font-weight: 600;
-		margin: 0.9rem 0 0.5rem;
+		margin: 0.9rem 0 0 0;
+	}
+	.release-date {
+		font-weight: 600;
+		font-size: 13px;
 	}
 	.movie-title-wrapper {
 		position: relative;
@@ -154,6 +158,8 @@ $black: #000000;
 			}
 		}
 		.full-movie-title {
+			font-size: 15px;
+			font-weight: 600;
 			position: absolute;
 			display: none;
 		}
@@ -166,6 +172,7 @@ $black: #000000;
 	.rating {
 		font-size: 13px;
 		font-weight: 600;
+		margin-top: 2px;
 		margin-bottom: 2px;
 	}
 }

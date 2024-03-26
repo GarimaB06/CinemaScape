@@ -2,13 +2,6 @@
  * CHANGE 6: Imported a re-usable Button component that accepts props and can be used as the see-info-button & add-remove-to-favorite-button
  * Aria label for the close button is more descriptive
  */
-// import { ReactComponent as InfoIcon } from "../assets/info.svg";
-// import { ReactComponent as FavoriteIcon } from "../assets/favorite.svg";
-// import { ReactComponent as FilledFavoriteIcon } from "../assets/filled_favorite.svg";
-
-// import InfoIcon from "../assets/info.svg";
-// import FavoriteIcon from "../assets/favorite.svg";
-// import FilledFavoriteIcon from "../assets/filled_favorite.svg";
 
 import InfoIcon from "../assets/InfoIcon";
 import FavoriteIcon from "../assets/FavoriteIcon";

@@ -1,6 +1,3 @@
-// import { ReactComponent as DotLogo } from "../assets/dot.svg";
-
-// import DotLogo from "../assets/dot.svg";
 import DotLogo from "../assets/DotLogo";
 
 const Marquee = ({ titles }) => {

@@ -2,12 +2,6 @@
  * CHANGE #5: Imported a re-usable Button component that accepts props and can be used as the close-button & buy-tickets-button
  * Aria label for the close button is more descriptive
  */
-// import { ReactComponent as CloseLogo } from "../assets/close.svg";
-// import { ReactComponent as StarLogo } from "../assets/star.svg";
-
-// import CloseLogo from "../assets/close.svg";
-// import StarLogo from "../assets/star.svg";
-// import Button from "./Button";
 
 import CloseLogo from "../assets/CloseLogo";
 import StarLogo from "../assets/StarLogo";
@@ -40,7 +34,9 @@ const FlipCardBack = ({ movie, flipped, setFlipped, genreMap }) => {
 							<span className="full-movie-title">{movie.title}</span>
 						)}
 					</div>
-					<span>{` (${movie.release_date.split("-")[0]})`}</span>
+					<span className="release-date">{` (${
+						movie.release_date.split("-")[0]
+					})`}</span>
 				</div>
 				<div className="rating-and-icon">
 					<span className="rating" aria-label="movie rating">

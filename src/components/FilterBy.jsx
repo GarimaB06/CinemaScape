@@ -1,12 +1,4 @@
 import Select from "react-select";
-// import { ReactComponent as FavoriteIcon } from "../assets/favorite.svg";
-// import { ReactComponent as FilledFavoriteIcon } from "../assets/filled_favorite.svg";
-
-// import FavoriteIcon from "../assets/favorite.svg";
-// import FilledFavoriteIcon from "../assets/filled_favorite.svg";
-// import { customStyles } from "../utils/customStyles";
-// import Button from "./Button";
-
 import FavoriteIcon from "../assets/FavoriteIcon";
 import FilledFavoriteIcon from "../assets/FilledFavoriteIcon";
 import { customStyles } from "../utils/customStyles";
@@ -14,7 +6,6 @@ import Button from "./Button";
 
 const FilterBy = ({
 	genreMap,
-	// selectedGenresList,
 	setSelectedGenresList,
 	setSortBy,
 	showFavoritesOnly,
@@ -53,7 +44,6 @@ const FilterBy = ({
 
 	const handleChange = (selectedOptions) => {
 		setSelectedGenresList(selectedOptions);
-		// setSelectedGenresList(selectedOptions.map((option) => option));
 	};
 
 	//React-Select library's syntax for declaring 'options' attribute in your Select component code and you can assign SortOptions as a value for it
@@ -76,11 +66,6 @@ const FilterBy = ({
 			<Select
 				options={genreOptions}
 				isMulti
-				// value={selectedGenresList}
-				// value={selectedGenresList.map((option) => ({
-				// 	value: option.value,
-				// 	label: option.label,
-				// }))}
 				onChange={handleChange}
 				placeholder="Filter by Genre"
 				styles={customStyles}

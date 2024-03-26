@@ -10,7 +10,6 @@ const FlipCardParent = ({
 	toggleFavorite,
 }) => {
 	const [flipped, setFlipped] = useState(false);
-	// const [favorite, setFavorite] = useState(false);
 	return (
 		<div
 			className={`flip-card${flipped ? " flipped" : ""}`}

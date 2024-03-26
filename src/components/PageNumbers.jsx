@@ -1,18 +1,8 @@
-// import { ReactComponent as ForwardArrow } from "../assets/forward_arrow.svg";
-// import { ReactComponent as BackArrow } from "../assets/back_arrow.svg";
-
-// import ForwardArrow from "../assets/forward_arrow.svg";
-// import BackArrow from "../assets/back_arrow.svg";
-// import Button from "./Button";
-
 import ForwardArrow from "../assets/ForwardArrow";
 import BackArrow from "../assets/BackArrow";
 import Button from "./Button";
 
 const PageNumbers = ({ totalPages, currentPage, setCurrentPage }) => {
-	// const pageNumberArr = Array(totalPages)
-	// 	.fill()
-	// 	.map((_, index) => index + 1);
 	const handlePageBack = () => {
 		if (currentPage - 1 < 1) {
 			setCurrentPage(1);
